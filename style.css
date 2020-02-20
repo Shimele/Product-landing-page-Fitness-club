@@ -5,7 +5,7 @@ body{
 
 #first-nav{
     border-bottom: 1px solid rgb(236, 230, 230);
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Gruppo', cursive;
     padding: 5px 0 5px 0;
 }
 #first-nav .nav-link{
@@ -24,11 +24,10 @@ body{
 }
 #second-nav img{
     width:100px;
-    height:100px;
+    height:90px;
 }
 .navbar-brand{
     padding-right: 10%;
-    font-family: 'Lacquer', sans-serif;
     margin-left: 100px;
     
 }
@@ -37,6 +36,7 @@ body{
     float: right;
     color:#008FA7;
     padding-top: 20%;
+    font-family: 'Shojumaru', cursive;
 }
 .dropdown-menu{
     background-color: #345F55;
@@ -66,3 +66,34 @@ body{
     background-size: 100% 2px;
     font-weight: bold;
 }
+
+/*first carousel section */
+.carousel-caption{
+    position: absolute;
+    right: 60%;
+    bottom: 400px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.carousel-caption h2{
+    color: #008FA7;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+.carousel-caption p{
+    font-family: 'Gruppo', cursive;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+/*.carousel-inner{
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)), url("carousel1.jpg") no-repeat center;;
+}*/
+      
