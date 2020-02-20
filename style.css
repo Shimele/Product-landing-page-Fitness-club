@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    }
+
+#first-nav{
+    border-bottom: 1px solid rgb(236, 230, 230);
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px 0 5px 0;
+}
+#first-nav .nav-link{
+    color: brown;
+}
+#first-nav i{
+    color:black;
+}
+#first-nav #email:hover{
+    color:#008FA7;
+}
+/*second navigation bar*/
+#second-nav{
+    border-bottom: 1px solid rgb(236, 230, 230);
+    padding: 20px 0 20px 0;
+}
+#second-nav img{
+    width:100px;
+    height:100px;
+}
+.navbar-brand{
+    padding-right: 10%;
+    font-family: 'Lacquer', sans-serif;
+    margin-left: 100px;
+    
+}
+#slogan{
+    width: max-content;
+    float: right;
+    color:#008FA7;
+    padding-top: 20%;
+}
+.dropdown-menu{
+    background-color: #345F55;
+}
+.dropdown-menu a{
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    border-bottom: 1px solid rgb(236, 230, 230);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+#navbarNavAltMarkup .nav-link{
+    margin-right: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: larger;
+    display: inline-block;
+    background-image: linear-gradient(to right, #345F55, #345F55);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 50% 2px;
+    transition: background-size .5s ease;
+}
+
+#navbarNavAltMarkup .nav-link:hover{
+    color: #345F55;
+    background-size: 100% 2px;
+    font-weight: bold;
+}
