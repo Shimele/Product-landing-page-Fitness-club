@@ -233,18 +233,23 @@ body{
     padding: 0;
     border: 5px 1px 1px 1px;
     font-family: 'Cormorant Garamond', serif;
+    transition: transform 1s;
 }
-#plan-section .essential{
+#plan-section .card:hover{
+
+    transform: skew(5deg, 5deg);
+}
+#plan-section .essential .card-body{
     border: 1px solid #345F55;
     border-top-width: thick;
     border-radius: 10px;
 }
-#plan-section .prefered{
+#plan-section .prefered .card-body{
     border: 1px solid orange;
     border-top-width: thick;
     border-radius: 10px;
 }
-#plan-section .premium{
+#plan-section .premium .card-body{
     border: 1px solid purple;
     border-top-width: thick;
     border-radius: 10px;
